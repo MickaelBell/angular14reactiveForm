@@ -1,0 +1,6 @@
+<ul class="users" *ngFor ="let user of userlist">
+  <li>{{user.name}}</li>
+  <li>{{user.email}}</li>
+  <li>{{user.password}}</li>
+  <li>{{user.adress.street}} {{user.adress.town}} {{user.adress.zipCode}}</li>
+</ul>
